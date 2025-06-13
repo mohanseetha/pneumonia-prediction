@@ -1,13 +1,5 @@
 # Chest X-ray Pneumonia Detection with Deep Learning
 
-<div align="center">
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Chest_Xray_PA_3-8-2010.png" alt="Chest X-ray Example" width="400"/>
-
-</div>
-
-## Overview
-
 This project implements an end-to-end deep learning pipeline for automatic detection of pneumonia from chest X-ray images. Using transfer learning with PyTorch and a pre-trained ResNet18 model, the system classifies chest X-rays as NORMAL or PNEUMONIA. The project also features a user-friendly Streamlit web app for fast, local inference.
 
 ## Features
@@ -49,8 +41,7 @@ Open http://localhost:8501 in your browser. Upload a chest X-ray image and recei
 
 ## References
 
--[Chest X-ray Images (Pneumonia) Dataset on Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data)
-
+- [Chest X-ray Images (Pneumonia) Dataset on Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data)
 - [PyTorch Documentation](https://docs.pytorch.org/docs/stable/index.html)
 - [Streamlit Documentation](https://docs.streamlit.io/)
 
